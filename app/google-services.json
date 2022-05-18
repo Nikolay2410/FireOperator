@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "643976935959",
+    "project_id": "fireoperator-77752",
+    "storage_bucket": "fireoperator-77752.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643976935959:android:6689b3b1e92ca80f3e7a52",
+        "android_client_info": {
+          "package_name": "com.example.fireoperator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643976935959-00lp9di03ibvs5d6l466kt2m94v0pfrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADINeMfxWBqYzd7_Nx6rYURd_DHAd1O4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643976935959-00lp9di03ibvs5d6l466kt2m94v0pfrm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
