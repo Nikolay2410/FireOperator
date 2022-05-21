@@ -35,6 +35,7 @@ class LoginActivity : AppCompatActivity() {
                 auth.signInWithEmailAndPassword(login.text.toString(), password.text.toString()).addOnCompleteListener  {
                     if (it.isSuccessful) {
                         Toast.makeText(this, "Успешный вход", Toast.LENGTH_SHORT).show()
+                        password.setText("")
                         val intent = Intent(this, MainActivity::class.java)
                         intent.putExtra("login", login.text.toString())
                         startActivity(intent)
@@ -47,9 +48,3 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 }
-
-//val intent = Intent(this@MainActivity, TriangleActivity::class.java)
-//                intent.putExtra("ARR", arr)
-//                startActivity(intent)
-
-//intent.getSerializableExtra("ARR") as ArrayList<Float>

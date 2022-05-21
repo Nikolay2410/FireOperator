@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.fireoperator.MainActivity
 import com.example.fireoperator.MyVariables
 import com.example.fireoperator.R
 import com.example.fireoperator.ui.tariff.Tariff
@@ -49,6 +50,10 @@ class MainFragment : Fragment() {
             databaseUser = FirebaseDatabase.getInstance().getReference("users").child(user).child("tariff")
             databaseBalance = FirebaseDatabase.getInstance().getReference("users").child(user).child("balance")
             readTariff()
+        }
+
+        logout.setOnClickListener {
+            requireActivity().finish()
         }
     }
 
